@@ -15,7 +15,7 @@ def visualize(path: str):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python input_layer_test.py <image_path>")
+        print("Usage: python -m tests.input_layer_test <image_path>")
         sys.exit(1)
 
     visualize(sys.argv[1])    
